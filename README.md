@@ -1,3 +1,3 @@
-# react-nhr9jy
+# React animated movie list
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-nhr9jy)
+## _Movie list app demonstrating react hooks and simple animation_
