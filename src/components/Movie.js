@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 function Movie({ movie }) {
-  console.log(movie);
   return (
     <motion.div
       layout
