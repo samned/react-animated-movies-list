@@ -1,0 +1,92 @@
+h1,
+p {
+  font-family: Lato;
+}
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.active-button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans);
+
+body {
+  background-color: white;
+}
+
+.card {
+  background-color: whitesmoke;
+  width: 300px;
+  height: 400px;
+  margin: 10px auto;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  max-height: 600px;
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+.card-header {
+  overflow: hidden;
+  width: 100%;
+  max-height: 200px;
+}
+
+.card-header img {
+  width: 100%;
+}
+
+.card-content {
+  width: 85%;
+  margin: 35px auto;
+}
+
+.card-content h3 {
+  font-size: 15px;
+  margin-bottom: 1rem;
+  color: #303f9f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-content h4 {
+  font-size: 14px;
+  margin-top: 0;
+  color: #ff5252;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-content p {
+  color: #727272;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
