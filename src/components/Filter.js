@@ -2,7 +2,7 @@ import React from 'react';
 
 const Filter = ({ setGenre, generesList, activeGenre }) => {
   return (
-    <div>
+    <div className="genres">
       <button className="button" onClick={() => setGenre(0)}>
         All
       </button>

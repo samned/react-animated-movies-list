@@ -9,11 +9,11 @@ function Movie({ movie }) {
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
     >
-      <div class="card">
-        <div class="card-header">
+      <div className="card">
+        <div className="card-header">
           <img src={`https://image.tmdb.org/t/p/w300/${movie.poster_path}`} />
         </div>
-        <div class="card-content">
+        <div className="card-content">
           <h3>{movie.title}</h3>
           <h4>{movie.vote_average} </h4>
           <p>{movie.overview}</p>

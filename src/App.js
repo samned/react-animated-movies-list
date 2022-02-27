@@ -30,7 +30,11 @@ export default function App() {
 
   return (
     <div>
-      <MoviesList movies={popular} generesList={genresList} />
+      <MoviesList
+        className="content"
+        movies={popular}
+        generesList={genresList}
+      />
     </div>
   );
 }

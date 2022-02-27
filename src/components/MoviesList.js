@@ -20,7 +20,7 @@ const MoviesList = ({ movies, generesList }) => {
   }, [genre, movies]);
 
   return (
-    <div>
+    <div className="content">
       <Filter
         setGenre={setGenre}
         generesList={generesList}

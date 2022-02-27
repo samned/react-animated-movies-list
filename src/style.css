@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans);
+
 h1,
 p {
   font-family: Lato;
@@ -8,6 +10,12 @@ p {
   gap: 10px 20px;
 }
 
+.content {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .button {
   background-color: #ddd;
   border: none;
@@ -34,10 +42,9 @@ p {
   border-radius: 16px;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans);
-
 body {
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card {
@@ -82,6 +89,7 @@ body {
 
 .card-content p {
   color: #727272;
+  font-weight: 700;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
   display: -webkit-box;
